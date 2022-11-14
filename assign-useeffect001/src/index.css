@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.search{
+
+  width: 30vw;
+  margin: auto;
+}
+input{
+  width: 70%;
+  background-color: rgba(35, 25, 25, 0.831);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+button{
+  padding: 10px;
+  background-color: rgb(3, 142, 167);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+h2{
+  max-width: 300px;
+  line-height: 20px;
+}
+h1{
+  text-align: center;
+  color: rgb(3, 142, 167);
+}
+p{
+  line-height: 1px;
+  color: rgb(6, 88, 88);
+}
+.otherdelails{
+  display: flex;
+  justify-content: space-between
+  ;
+}

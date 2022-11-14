@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.App{
+  height: 100vh;
+}
+.container{
+  width: 45%;
+  margin: auto;
+  
+}
+.toggle-sec{
+ display: flex;
+ justify-content: space-between;
+}
+button{
+  height: 20px;
+  margin-top: 30px;
+  padding: 2px 8px 2px 8px ;
+  color: white;
+  background-color:#9c1144;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+p{
+  line-height: 4px;;
+}

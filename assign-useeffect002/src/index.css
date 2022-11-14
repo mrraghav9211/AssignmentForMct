@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.card img{
+  width: 200px;
+  height: 300px;
+}
+.card h1{
+  max-width: 200px;
+  text-align: center;
+  max-height: 50px;
+  font-size: 20px;
+}
+p{
+  text-align: center;
+}
+.search{
+  width: 40vw;margin: auto;
+}
+input{
+  border: none;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(22, 30, 20);
+  color: white;
+}
+button{
+  border: none;
+  padding: 10px;
+  background-color: rgb(52, 55, 124);
+  color: white;
+
+}
