@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0px;
+}
+.light{
+  background-color: white;
+  color: black;
+}
+.dark{
+  background-color: black;
+  color: aquamarine;
+}
